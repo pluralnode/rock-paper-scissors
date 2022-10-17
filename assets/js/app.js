@@ -193,6 +193,9 @@ function declareWinner(){
     if(playerScore > computerScore){
         endCaption.textContent = "You win! Thank you for playing.";
         retryBtn.innerText = 'Start a new game?';
+    }else {
+        endCaption.textContent = "You lost...";
+        retryBtn.innerText = "Try Again?";
     }
     fadeIn();
 
