@@ -15,4 +15,4 @@
 - Email - [Dachel Akyerefi](dachelakyerefi@icloud.com)
 
 ## Acknowledgments
-
+- Big thanks to this user, his solution helped me a lot: [https://github.com/lookingcoolonavespa/rock-paper-scissors/commits?author=lookingcoolonavespa]
