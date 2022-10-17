@@ -223,7 +223,7 @@ function resetGame(){
     fadeIn();
     resultsContainer.textContent = "";
     playerScore = 0;
-    computerScore = o;
+    computerScore = 0;
     keepPlayerScore();
     keepComputerScore();
 }
