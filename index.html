@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="main-content">
+        <div class="container">
+            <h1 id="title">User vs Computer</h1>
+
+            <p class="intro animate" id="desc1">
+                Get ready to begin..
+            </p>
+
+            <p class="intro hide" id="desc2">
+                Defeat Computer 5 times to win
+            </p>
+
+            <p class="intro hide" id="desc3">
+                Do you have what it takes to win?
+            </p>
+
+            <p id="cta">Choose your weapon!</p>
+
+            <div id="game-container">
+
+                <div id="btn-container">
+                  <div id="rock" class="button">
+                    <img src="assets/images/cave-painting.png" alt="Rock" />
+                  </div>
+                  <div id="paper" class="button">
+                    <img src="assets/images/document.png" alt="Paper" />
+                  </div>
+                  <div id="scissors" class="button">
+                    <img src="assets/images/scissors-opened-tool-shape.png" alt="Scissors" />
+                  </div>
+                </div>
+
+                <div id="score-label">
+                  <p class="label">you</p>
+                  <p class="label">computer</p>
+                </div>
+
+                <div id="score-container">
+                  <div id="player-score" class="score">0</div>
+                  <div id="computer-score" class="score">0</div>
+                </div>
+
+                <div id="results-container"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="quit-game" class="hide">
+        <div class="container">
+            <div id="end-caption"></div>
+            <a id="retry-btn"></a>
+        </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
