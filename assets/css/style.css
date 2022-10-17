@@ -6,8 +6,8 @@ body{
     font-size: 18px;
 }
 .container{
-    width: 480px;
-    max-width: 70%;
+    width: 375px;
+    max-width: 90%;
     margin: 0 auto;
 }
 #title,
@@ -37,9 +37,6 @@ body{
     justify-content: center;
 }
 .button{
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
     margin: 0 25px;
     display: flex;
     justify-content: center;
@@ -47,7 +44,8 @@ body{
     transition: all 0.4s ease;
 }
 .button img{
-    width: 150px;
+    display: block;
+    max-width: 100%;
 }
 .button:hover{
     cursor: pointer;
